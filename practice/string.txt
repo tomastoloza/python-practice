@@ -1,0 +1,2 @@
+carreras = { “música”: [“historia”, “piano 1”, “piano 2”, “guitarra”, “composición”],
+“pintura”: [“historia”, “dibujo 1”, “dibujo 2”, “pintura 1”, “pintura 2”] }

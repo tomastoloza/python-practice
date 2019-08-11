@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+import re
+
+
 def staircase(n):
     for j in range(1, n + 1):
         print((' ' * (n - j)) + '#' * j)
@@ -40,6 +42,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print(quantity_apples)
     print(quantity_oranges)
 
+
 def timeConversion(s):
     if s.endswith("AM"):
         if s.startswith("12"):
@@ -53,8 +56,29 @@ def timeConversion(s):
             return str(int(s[0:2]) + 12) + s[2: s.__len__() - 2]
 
 
+def getRunnerUp(arr):
+    maximum = max(arr)
+    while max(arr) == maximum:
+        arr.remove(max(arr))
+    print(max(arr))
+
+
+def detectFloat(string):
+    reg = re.compile("((\+|\-)?\d+\.\d+)|(\+|\-)?\.\d+").fullmatch(string)
+    if type(reg) == re.Match:
+        print(True)
+    else:
+        print(False)
+
+
+def splitNumber(string):
+    for i in re.split(",|\.", string):
+        print(i)
+
+
+def getFirstOccurrence(string):
+    print(re.compile("\w|\d").fullmatch(string))
+
+
 if __name__ == '__main__':
-    print(timeConversion("07:05:45AM"))
-    print(timeConversion("12:05:45PM"))
-    print(timeConversion("01:05:45PM"))
-    print(timeConversion("12:40:22AM"))
+    getFirstOccurrence("..12345678910111213141516171820212223")

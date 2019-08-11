@@ -42,7 +42,6 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print(quantity_apples)
     print(quantity_oranges)
 
-
 def timeConversion(s):
     if s.endswith("AM"):
         if s.startswith("12"):
@@ -54,6 +53,13 @@ def timeConversion(s):
             return s[: s.__len__() - 2]
         else:
             return str(int(s[0:2]) + 12) + s[2: s.__len__() - 2]
+
+
+def wrap(string, max_width):
+    j = 0
+    while j < len(string)-1:
+        print(string[j:j + max_width])
+        j += max_width
 
 
 def getRunnerUp(arr):

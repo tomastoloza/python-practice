@@ -1,4 +1,5 @@
 import re
+import numpy
 
 
 def staircase(n):
@@ -42,6 +43,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print(quantity_apples)
     print(quantity_oranges)
 
+
 def timeConversion(s):
     if s.endswith("AM"):
         if s.startswith("12"):
@@ -57,7 +59,7 @@ def timeConversion(s):
 
 def wrap(string, max_width):
     j = 0
-    while j < len(string)-1:
+    while j < len(string) - 1:
         print(string[j:j + max_width])
         j += max_width
 
@@ -86,5 +88,9 @@ def getFirstOccurrence(string):
     print(re.compile("\w|\d").fullmatch(string))
 
 
+def getProductOfSum(arr):
+    print(numpy.prod(numpy.sum(arr, axis=0)))
+
+
 if __name__ == '__main__':
-    getFirstOccurrence("..12345678910111213141516171820212223")
+    getProductOfSum([[1, 2], [3, 4]])

@@ -4,6 +4,10 @@ import textwrap
 from jinja2._identifier import pattern
 
 
+import re
+import numpy
+
+
 def staircase(n):
     for j in range(1, n + 1):
         print((' ' * (n - j)) + '#' * j)
@@ -60,16 +64,39 @@ def timeConversion(s):
 
 
 def wrap(string, max_width):
-    print(textwrap.fill(string, max_width))
+    j = 0
+    while j < len(string) - 1:
+        print(string[j:j + max_width])
+        j += max_width
 
 
-def parse_html(string):
-    separated = string.split(">")
-    parsed = re.match(":?(<\w+>)", string)
-    print(separated)
+def getRunnerUp(arr):
+    maximum = max(arr)
+    while max(arr) == maximum:
+        arr.remove(max(arr))
+    print(max(arr))
+
+
+def detectFloat(string):
+    reg = re.compile("((\+|\-)?\d+\.\d+)|(\+|\-)?\.\d+").fullmatch(string)
+    if type(reg) == re.Match:
+        print(True)
+    else:
+        print(False)
+
+
+def splitNumber(string):
+    for i in re.split(",|\.", string):
+        print(i)
+
+
+def getFirstOccurrence(string):
+    print(re.compile("\w|\d").fullmatch(string))
+
+
+def getProductOfSum(arr):
+    print(numpy.prod(numpy.sum(arr, axis=0)))
 
 
 if __name__ == '__main__':
-    parse_html(
-        "<html><head><title>HTML Parser - I</title></head><body data-modal-target class='1'><h1>HackerRank</h1><br "
-        "/></body></html>")
+    getProductOfSum([[1, 2], [3, 4]])

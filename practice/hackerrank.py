@@ -1,3 +1,9 @@
+import re
+import textwrap
+
+from jinja2._identifier import pattern
+
+
 def staircase(n):
     for j in range(1, n + 1):
         print((' ' * (n - j)) + '#' * j)
@@ -54,11 +60,16 @@ def timeConversion(s):
 
 
 def wrap(string, max_width):
-    j = 0
-    while j < len(string)-1:
-        print(string[j:j + max_width])
-        j += max_width
+    print(textwrap.fill(string, max_width))
+
+
+def parse_html(string):
+    separated = string.split(">")
+    parsed = re.match(":?(<\w+>)", string)
+    print(separated)
 
 
 if __name__ == '__main__':
-    (wrap("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4))
+    parse_html(
+        "<html><head><title>HTML Parser - I</title></head><body data-modal-target class='1'><h1>HackerRank</h1><br "
+        "/></body></html>")

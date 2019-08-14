@@ -3,7 +3,6 @@ import textwrap
 
 from jinja2._identifier import pattern
 
-
 import re
 import numpy
 
@@ -98,5 +97,73 @@ def getProductOfSum(arr):
     print(numpy.prod(numpy.sum(arr, axis=0)))
 
 
+def swap_case(s):
+    string = ""
+    for i in s:
+        if i.islower():
+            string += i.upper()
+        elif i.isupper():
+            string += i.lower()
+        else:
+            string += i
+    print(string)
+
+
+def split_and_join(line):
+    return "-".join(line.split(" "))
+
+
+def count_substring(string, sub_string):
+    for i in range(0, len(string)):
+        print(string)
+    return
+
+
+def getLowestGrades(students):
+    grades = []
+    lowest = []
+    dicty = {}
+    for i in students:
+        dicty[i[0]] = i[1]
+
+    print(lowest)
+
+
+def doMap(a, b, c):
+    a[b] = c
+    return a
+
+
+def readAndOperate():
+    n = int(input())
+    print("\n")
+    listy = []
+    for it in range(0, n):
+        i = input()
+        if i.startswith("insert"):
+            op = i.split(" ")
+            listy.insert(int(op[1]), int(op[2]))
+        if i.startswith("print"):
+            print(listy)
+        if i.startswith("remove"):
+            op = i.split(" ")
+            listy.remove(int(op[1]))
+        if i.startswith("append"):
+            op = i.split(" ")
+            listy.append(int(op[1]))
+        if i.startswith("sort"):
+            listy.sort()
+        if i.startswith("pop"):
+            listy.pop()
+        if i.startswith("reverse"):
+            listy.reverse()
+
+def getHashTuple():
+    n = int(input())
+    integer_list = map(int, input().split())
+    asd = ()
+    asd.__add__("s")
+    print(asd)
+
 if __name__ == '__main__':
-    getProductOfSum([[1, 2], [3, 4]])
+    getHashTuple()

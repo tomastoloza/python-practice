@@ -1,5 +1,5 @@
 import random
-
+import math
 
 def isPalindrome(string):
     string = string.replace(" ", "")
@@ -52,5 +52,10 @@ def getQuantityOfLetters(string):
     return dic
 
 
+def getPos(string):
+    print(string.find("python"))
+
+
 if __name__ == '__main__':
-    print(getQuantityOfLetters("abbccc"))
+    math.modf()
+

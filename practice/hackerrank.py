@@ -158,12 +158,14 @@ def readAndOperate():
         if i.startswith("reverse"):
             listy.reverse()
 
+
 def getHashTuple():
     n = int(input())
     integer_list = map(int, input().split())
     asd = ()
     asd.__add__("s")
     print(asd)
+
 
 if __name__ == '__main__':
     getHashTuple()

@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def isPalindrome(string):
     string = string.replace(" ", "")
     return string == string[::-1]
@@ -57,5 +58,6 @@ def getPos(string):
 
 
 if __name__ == '__main__':
-    math.modf()
-
+    f = "abcdefg"
+    for i in range(-1, len(f)*-1, -2):
+        print(f[i])

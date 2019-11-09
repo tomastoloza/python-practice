@@ -1,0 +1,38 @@
+﻿institucion,sigla,tipo_institucion,tipo_personal_investigadores,tipo_personal_becarios,tipo_personal_docentes,tipo_personal_otros,nivel_educativo_doctorado,nivel_educativo_maestria,nivel_educativo_especializacion,nivel_educativo_grado,nivel_educativo_terciario,nivel_educativo_medio,nivel_educativo_basico,nivel_educativo_sin_datos,experticia_cs_agricolas,experticia_cs_medicas_y_salud,experticia_cs_naturales_y_exactas,experticia_cs_sociales,experticia_humanidades,experticia_ingenierias_y_tecnologias,experticia_sin_datos
+Universidad de Buenos Aires,UBA,Universidad o instituto universitario estatal,3400,872,860,124,3040,427,375,1350,5,31,1,27,450,612,1526,1378,948,278,64
+Universidad Nacional de Avellaneda,UNDAV,Universidad o instituto universitario estatal,69,12,122,35,50,44,39,102,2,0,0,1,1,29,38,121,44,5,0
+Universidad Nacional de Catamarca,UNCA,Universidad o instituto universitario estatal,322,30,254,24,88,113,116,304,0,6,0,3,32,49,201,134,116,80,18
+Universidad Nacional de Córdoba,UNC,Universidad o instituto universitario estatal,511,323,361,21,382,118,120,573,1,13,0,9,59,167,339,284,231,126,10
+Universidad Nacional de la Pampa,UNLPAM,Universidad o instituto universitario estatal,344,38,175,9,182,105,80,199,0,0,0,0,132,7,174,143,71,39,0
+Universidad Nacional de la Patagonia Austral,UNPA,Universidad o instituto universitario estatal,199,7,67,9,58,69,24,127,1,1,0,2,11,8,82,118,42,21,0
+Universidad Nacional de La Plata,UNLP,Universidad o instituto universitario estatal,2537,779,1358,69,1765,448,399,2065,12,19,1,34,313,354,1381,1267,864,534,30
+Universidad Nacional de Lanús,UNLA,Universidad o instituto universitario estatal,203,5,187,20,75,83,75,174,7,0,1,0,7,50,25,187,109,25,12
+Universidad Nacional de Río Negro,UNRN,Universidad o instituto universitario estatal,181,47,61,1,133,40,30,77,6,2,0,2,23,8,99,74,61,22,3
+Universidad Nacional de General San Martín,UNSAM,Universidad o instituto universitario estatal,364,80,221,44,451,67,35,144,0,2,2,8,13,35,271,214,93,70,13
+Universidad Nacional de Tucumán,UNT,Universidad o instituto universitario estatal,1165,77,416,40,525,279,275,601,1,10,0,7,96,253,437,407,298,201,6
+Universidad Nacional del Centro de la Provincia de Buenos Aires,UNICEN,Universidad o instituto universitario estatal,459,148,53,11,334,118,36,180,1,2,0,0,133,3,216,145,85,88,1
+Universidad Nacional del Litoral,UNL,Universidad o instituto universitario estatal,751,51,125,13,485,196,95,156,2,1,0,5,100,70,302,152,146,163,7
+Universidad Nacional del Nordeste,UNNE,Universidad o instituto universitario estatal,627,127,369,20,305,231,273,331,2,0,0,1,170,247,243,279,122,78,4
+Universidad Nacional del Noroeste de la Provincia de Buenos Aires,UNNOBA,Universidad o instituto universitario estatal,113,26,108,5,41,45,26,137,0,2,0,1,29,14,65,62,23,58,1
+Universidad Nacional del Sur,UNS,Universidad o instituto universitario estatal,606,196,154,101,640,112,36,267,0,1,0,1,56,57,493,155,76,208,12
+Universidad Nacional Arturo Jauretche,UNAJ,Universidad o instituto universitario estatal,130,3,383,51,130,75,108,245,8,0,0,1,12,107,117,158,112,47,14
+Consejo Nacional de Investigaciones Científicas y Técnicas,CONICET,Organismo gubernamental de ciencia y tecnología,9127,7337,360,204,11310,494,243,4823,18,42,0,98,881,1381,8473,2132,1775,2157,229
+Universidad Nacional de Cuyo,UNCU,Universidad o instituto universitario estatal,1006,236,299,219,685,294,222,491,10,30,0,28,130,134,480,420,375,213,8
+Universidad Nacional de Entre Ríos,UNER,Universidad o instituto universitario estatal,290,51,428,20,148,133,128,331,8,28,0,13,67,86,154,289,48,145,0
+Universidad Nacional de Misiones,UNAM,Universidad o instituto universitario estatal,411,98,297,19,146,224,120,329,4,1,0,1,33,75,190,225,119,182,1
+Universidad Nacional de Río Cuarto,UNRC,Universidad o instituto universitario estatal,730,58,147,12,366,241,75,263,0,1,0,1,185,39,302,232,94,90,5
+Universidad Nacional de Hurlingham,UNHU,Universidad o instituto universitario estatal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Universidad Nacional de José Clemente Paz,UNPAZ,Universidad o instituto universitario estatal,20,0,65,12,21,19,18,38,1,0,0,0,1,6,8,70,11,0,1
+Universidad Nacional de la Matanza,UNLAM,Universidad o instituto universitario estatal,418,5,432,40,132,179,197,380,4,2,0,1,2,92,103,499,93,103,3
+Universidad Nacional de las Artes,UNA,Universidad o instituto universitario estatal,133,4,50,5,26,22,27,101,10,4,0,2,0,0,0,30,162,0,0
+Universidad Nacional de Lomas de Zamora,UNLZ,Universidad o instituto universitario estatal,31,1,7,1,15,13,5,7,0,0,0,0,14,0,6,11,2,7,0
+Universidad Nacional de Luján,UNLU,Universidad o instituto universitario estatal,243,35,102,6,114,73,56,140,2,0,0,1,64,4,115,135,36,30,2
+Universidad Nacional de Quilmes,UNQ,Universidad o instituto universitario estatal,266,152,205,37,248,103,71,231,1,2,0,4,3,40,131,308,106,66,6
+Universidad Nacional de Rosario,UNR,Universidad o instituto universitario estatal,808,32,126,12,583,134,69,188,0,1,0,3,97,154,304,228,115,77,3
+Universidad Nacional de San Luis,UNSL,Universidad o instituto universitario estatal,731,101,237,11,365,135,149,405,7,9,1,9,39,131,411,309,63,126,1
+Instituto Universitario del Ejército,,Universidad o instituto universitario estatal,35,0,15,23,14,27,6,25,1,0,0,0,0,1,15,31,2,24,0
+Universidad Autónoma de Entre Ríos,UADER,Universidad o instituto universitario estatal,157,6,283,64,104,99,83,216,4,2,0,2,12,23,130,210,93,41,1
+Instituto Nacional de Tecnología Agropecuaria,INTA,Organismo gubernamental de ciencia y tecnología,654,59,0,167,415,258,36,162,5,3,0,1,508,5,234,56,1,41,35
+Instituto Universitario del Gran Rosario,IUGR,Universidad o instituto universitario privado,12,0,81,5,8,7,15,66,1,1,0,0,0,59,6,21,12,0,0
+Universidad de La Cuenca del Plata,UCP,Universidad o instituto universitario privado,26,2,51,27,23,31,22,30,0,0,0,0,1,7,22,60,12,4,0
+Universidad Juan Agustín Maza,UMAZA,Universidad o instituto universitario privado,38,4,53,12,19,11,29,48,0,0,0,0,17,19,39,20,7,3,2
